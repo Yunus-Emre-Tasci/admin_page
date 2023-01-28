@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     
     #myapps
     "products",
+    'django_admin_listfilter_dropdown',
 ]
 
 MIDDLEWARE = [

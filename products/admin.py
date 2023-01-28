@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import Product,Review,Category
 from django.utils import timezone
 from django.utils.safestring import mark_safe
+from django_admin_listfilter_dropdown.filters import RelatedDropdownFilter
 
 # Register your models here.
 
